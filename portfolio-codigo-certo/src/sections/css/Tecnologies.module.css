@@ -1,0 +1,80 @@
+.tecnologies {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.slide {
+    display: none;
+}
+
+.rsCard {
+    color: rgb(90, 255, 255);
+}
+
+.jsCard {
+    color: yellow;
+}
+
+.tsCard {
+    color: rgb(105, 159, 240);
+}
+
+.tecnologies .card {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    width: 300px;
+    background-color: rgb(39, 39, 39);
+    padding-bottom: 5px;
+    
+}
+
+.tecnologies .card>p {
+    margin: 20px;
+    font-weight: 600;
+}
+
+img {
+    justify-content: end;
+    width: 75px;
+}
+
+.rsImage {
+    width: 180px;
+    padding-top: 0;
+}
+
+@media(max-width: 470px) {
+
+    .slide {
+        display: flex;
+        justify-content: center;
+    }
+
+    .tecnologies {
+        margin: auto;
+        width: 80%;
+        height: 26rem;
+        position: relative;
+        display: flex;
+        align-items: center;
+        overflow: auto;
+        scroll-snap-type: x mandatory;
+    }
+
+    .tecnologies .card {
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        position: sticky;
+        left: 0;
+        flex-shrink: 0;
+        object-fit: cover;
+        scroll-behavior: smooth;
+    }
+}
