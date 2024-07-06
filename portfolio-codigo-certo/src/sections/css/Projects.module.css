@@ -1,0 +1,27 @@
+.projects {
+    background-image: url('../../imagens/bg.svg');
+    background-position: center;
+    margin: 25px;
+    padding: 50px;
+}
+
+.projects h1 {
+    margin: auto;
+    width: 550px;
+    background-color: rgba(0, 0, 0, 0.404);
+}
+
+.projects button {
+    margin-top: 20px;
+    
+}
+
+@media (max-width:468px) {
+    .projects {
+        background-color: rgb(39,39,39);
+    }
+
+    .projects h1 {
+        width: 100%;
+    }
+}

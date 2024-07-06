@@ -23,7 +23,7 @@ export const Header = () => {
                         <a href="#tecnologies">Tecnologias</a>
                     </li>
                     <li>
-                        <a href="#footer">Contato</a>
+                        <a href="#contato">Contato</a>
                     </li>
                 </ul>
             

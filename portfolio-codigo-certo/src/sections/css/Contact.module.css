@@ -1,0 +1,51 @@
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(39,39,39);
+    width: 97%;
+    margin: auto;
+}
+
+.contact ul {
+    list-style: none;
+    text-align: left;
+}
+
+.contact li {
+    line-height: 15px;
+    
+}
+
+.contact ul > li {
+    color:white !important;
+}
+
+.icon ul {
+    display: flex;
+}
+
+.icon li {
+    margin: 20px;
+}
+
+.icon a {
+    color: white !important;
+    transform: 0.3s;
+}
+
+.icon a:hover {
+    color: #e53939 !important;
+    transition: 0.3s;
+}
+
+@media (max-width: 468px) {
+    .contact {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact ul {
+        text-align: center;
+    }
+}

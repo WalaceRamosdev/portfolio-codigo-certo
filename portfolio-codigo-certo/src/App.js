@@ -2,8 +2,9 @@ import './App.css';
 import { Header } from './sections/Header';
 import { AboutMe } from './sections/AboutMe';
 import { Tecnologies } from './sections/Tecnologies';
-import { Projects } from './sections/Projects';
 import { Contact } from './sections/Contact';
+import { Objective } from './sections/Objective';
+import { Projects } from './sections/Projects';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header/>
       <AboutMe/>
       <Tecnologies/>
+      <Objective/>
       <Projects/>
       <Contact/>
     </div>

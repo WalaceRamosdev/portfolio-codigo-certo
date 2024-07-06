@@ -4,6 +4,13 @@
     
 }
 
+.titlePage {
+    display: flex;
+    margin-left: 10%;
+    
+    
+    
+}
 
 .slide {
     display: none;
@@ -32,6 +39,12 @@
     background-color: rgb(39, 39, 39);
     padding-bottom: 5px;
     
+}
+
+.card:hover {
+    box-shadow: 0px 0px 5px white;
+    transition: 0.5s;
+    transform: scale(1.1);
 }
 
 .tecnologies .card>p {
@@ -77,4 +90,10 @@ img {
         object-fit: cover;
         scroll-behavior: smooth;
     }
+    .card:hover {
+        box-shadow: 0px 0px 5px white;
+        transition: 0.5s;
+        transform: none;
+    }
+    
 }

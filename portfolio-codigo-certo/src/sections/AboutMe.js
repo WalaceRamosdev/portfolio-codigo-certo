@@ -1,5 +1,6 @@
 import style from './css/AboutMe.module.css'
 import perfilPB from '../imagens/perfilPB.svg'
+import { Button } from '../components/Button'
 
 export const AboutMe = () => {
     return (
@@ -17,7 +18,9 @@ export const AboutMe = () => {
                     <p>
                     Desenvolvendo interfaces e interações para sites e aplicativos. Utilizo <span>TypeScript</span> e <span>ReactJS</span> para garantir uma experiência intuitiva e funcional em diversos dispositivos e navegadores.
                     </p>
-                    <button className={style.btn}>GitHub</button>
+
+                    <Button text={'Instagram'} link={'https://www.instagram.com/walacedev.contato/'}/>
+                    
                 </div>
 
 
