@@ -37,6 +37,8 @@
     height: 350px;
     width: 300px;
     background-color: rgb(39, 39, 39);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(20px);
     padding-bottom: 5px;
     
 }
@@ -62,7 +64,7 @@ img {
     padding-top: 0;
 }
 
-@media(max-width: 470px) {
+@media(max-width: 640px) {
 
     .slide {
         display: flex;
